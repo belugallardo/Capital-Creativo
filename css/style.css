@@ -211,3 +211,15 @@ flex-wrap: wrap;
     flex-wrap: wrap;
     color: rgb(176, 18, 147);
 }
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 400px){
+.nav{
+    font-size: 12px;
+    height: 40px;
+}
+h1{
+    font-size: 27px;
+}
+}   
