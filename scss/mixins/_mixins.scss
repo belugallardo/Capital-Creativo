@@ -1,0 +1,13 @@
+@mixin flexbox ($direction, $justificado, $alineado-items, $wrap){
+    display:flex;
+    flex-direction: $direction;
+    justify-content: $justificado;
+    align-items: $alineado-items;
+    flex-wrap: $wrap;
+}
+
+@mixin cards (){
+    padding: 15px;
+    margin: 15px;
+    font-family: $principal;
+}
