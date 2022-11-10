@@ -1,0 +1,10 @@
+@import "../utilities/color";
+@import "../utilities/fonts";
+
+.container-fluid {
+    font-family: $principal;
+}
+.itemsNav {
+    text-decoration: none;
+    color: $texto;
+}

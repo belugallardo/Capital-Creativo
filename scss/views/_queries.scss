@@ -1,0 +1,126 @@
+
+@import "../normalize/reset";
+
+@media screen and (max-width: 768px) {
+    .imagenesIndex {
+        padding: 10px;
+    }
+
+    .cardProyectos {
+        flex-wrap: wrap;
+    }
+
+    .cardProyectos2 {
+        flex-wrap: wrap;
+    }
+
+    .texto {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .imagenNosotras {
+        margin-right: 2px;
+    }
+
+    .imagenNosotras2 {
+        margin-left: 2px;
+    }
+
+    .imagenProyectos {
+        width:500px;
+        margin-right: 5px;
+    }
+
+    .imagenProyectos2 {
+        width: 500px;
+        margin-left: 5px;
+    }
+
+    .cardProyectos {
+        margin: 1px;
+    }
+
+    .cardProyectos2 {
+        margin: 1px;
+    }
+    .cardContactos{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .datosContactos {
+        grid-template-columns: 100px 250px;
+
+    }
+    .textoContactos{
+        font-size: medium;
+    }
+    .imagenContactos{
+        width: 500px;
+        padding-top: 50px;
+
+    }
+    .cardContactos {
+        margin-top: 2px;
+        margin-bottom: 3px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .textoMail{
+        font-size: small;
+    }
+    .textoFooter{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .texto {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+    .textoNosotras {
+        font-size: medium;
+    }
+
+    .itemServicios {
+        font-size: medium;
+    }
+
+    .itemServicios2 {
+        font-size: medium;
+    }
+
+    .cardNosotras {
+        flex-wrap: wrap;
+    }
+
+    .cardNosotras2 {
+        flex-wrap: wrap;
+    }
+    .imagenProyectos{
+        width: 380px;
+    }
+    .imagenProyectos2{
+        width: 380px;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .datosContactos {
+        grid-template-columns: 70px 250px;
+    }
+    .imagenContactos{
+        width: 380px;
+        padding-top: 50px;  
+    }
+    .textoMail{
+        font-size: smaller;
+        text-align: center;
+    }
+
+}

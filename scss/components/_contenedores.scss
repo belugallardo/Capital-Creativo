@@ -1,0 +1,58 @@
+@import "../utilities/color";
+@import "../utilities/fonts";
+
+.cajaImagenesIndex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cardNosotras {
+    background-color: $fondo;
+    font-family: $principal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin: 15px;
+}
+.cardNosotras2 {
+    font-family: $principal;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin: 15px;
+}
+.contenedorServicios {
+    list-style-type: none;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.cardProyectos {
+    background-color: $fondo;
+    font-family: $principal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin: 15px;
+}
+.cardProyectos2 {
+    font-family: $principal;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin: 15px;
+}
+.cardContactos {
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color:$fondo;
+    border-style: none;
+    display: flex;
+}

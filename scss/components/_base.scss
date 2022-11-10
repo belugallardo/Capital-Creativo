@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h1 {
+    font-family: $principal;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: $fuenteRosa;
+    margin-top: 20px !important;
+}
+footer {
+    background-color:$fondo;
+}
+.footer {
+    font-family: $principal;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}

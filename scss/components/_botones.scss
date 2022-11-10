@@ -1,0 +1,14 @@
+.botonContactos {
+    background-color:$fuenteRosa;
+    color: aliceblue;
+    border-radius: 25%;
+    border: solid;
+    border-color:$fondo;
+    width: 60px;
+    font-family: $principal;
+    font-size: 14px;
+}
+.botones {
+    display: flex;
+    justify-content: right;
+}
